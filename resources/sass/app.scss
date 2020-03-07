@@ -1,1 +1,49 @@
-//
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+a.navbar-brand, a.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  }
+  
+  strong {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  .icon {
+      height: 2.0rem;
+  }
+  
+  .front-red, .navbar {
+      background-color: #BB0A1E;
+      color: white;
+  }
+
+  
+  .jumbotron img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+  }
+  
+  .jumbotron img.appstore {
+      width:75%;
+  }
+  
