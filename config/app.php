@@ -229,4 +229,6 @@ return [
 
     ],
 
+    'secretcode' => env('SECRET_CODE'),
+
 ];
