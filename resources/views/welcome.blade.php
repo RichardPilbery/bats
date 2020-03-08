@@ -4,19 +4,18 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="jumbotron front-red">
-                    <img src="/images/logo.png" >
-                  <h1 class="display-4 center text-center">Bleeding Audit Trauma Score</h1>
+                    <img src="/images/logo.png" class="front-page-logo">
                   <br>
-                  <p class="lead">Getting the right patients TXA in a timely fashion.</p>
+                  <p class="lead">Giving ambulance clinicians a helping hand when deciding which patients need TXA.</p>
                   <hr>
                   <h4>Interested in using the app?</h4>
                   <p class="lead">Download it from the Apple and Google Play Stores</p>
                   <div class="row">
                       <div class="col-md-6">
-                            <a href="#" src="/images/ios-app-store.svg" ></a>
+                            <a href="#" ><img src="/images/ios-app-store.svg" class="appstore" alt='Download from the Apple AppStore' /></a>
                       </div>
                       <div class="col-md-6">
-                            <a href='https://play.google.com/store/apps/details?id=uk.ambulanceresearch.asra&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="appstore"  alt='Get it on Google Play' src='/images/google-play-badge.png'/></a>
+                            <a href='#'><img class="appstore"  alt='Get it on Google Play' src='/images/google-play-badge.png'/></a>
                       </div>
                     </div>
                 <br><br>

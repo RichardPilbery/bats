@@ -23,3 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/app', 'HomeController@app')->name('app');
 Route::get('/privacy', 'HomeController@privacy')->name('privacy');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
