@@ -15,6 +15,16 @@ class CreateDataTable extends Migration
     {
         Schema::create('data', function (Blueprint $table) {
             $table->id();
+            $table->unsignedInteger('app_id');
+            $table->unsignedInteger('bp');
+            $table->unsignedInteger('gcs');
+            $table->unsignedInteger('rr');
+            $table->unsignedInteger('spo2');
+            $table->unsignedInteger('hr');
+            $table->unsignedInteger('age');
+            $table->unsignedInteger('bats');
+            $table->unsignedInteger('votes');
+            $table->datetime('calc_datetime');
             $table->timestamps();
         });
     }
