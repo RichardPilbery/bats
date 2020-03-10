@@ -19,10 +19,7 @@ class CreateTxasTable extends Migration
             $table->string('dose');
             $table->string('concentration');
             $table->string('volume');
-            $table->unsignedInteger('user_id');
             $table->timestamps();
-
-            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

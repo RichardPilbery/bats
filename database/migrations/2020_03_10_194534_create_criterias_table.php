@@ -15,6 +15,7 @@ class CreateCriteriasTable extends Migration
     {
         Schema::create('criterias', function (Blueprint $table) {
             $table->id();
+            $table->string('version');
             $table->string('inclusion');
             $table->string('exclusion');
             $table->foreignId('user_id');

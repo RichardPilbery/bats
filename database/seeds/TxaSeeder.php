@@ -23,7 +23,6 @@ class TxaSeeder extends Seeder
                 'dose' => ($i == 10) ? $dose[$i]." grams" : $dose[$i]." mg",
                 'concentration' => "100 mg/ml",
                 'volume' => ($i == 10) ? ($dose[$i]*1000)/$concentration." ml" : $dose[$i]/$concentration." ml",
-                'user_id' => "1",
                 'created_at'=>date('Y-m-d H:i:s'),
                 'updated_at'=>date('Y-m-d H:i:s')
             ];

@@ -20,3 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::get('checkcode','DataController@apicall');
+Route::get('criteria','CriteriaController@apicall');

@@ -57,7 +57,7 @@ class TxaController extends Controller
      */
     public function edit(Txa $txa)
     {
-        //
+        dd($txa);
     }
 
     /**
