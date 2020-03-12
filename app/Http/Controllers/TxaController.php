@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 
 class TxaController extends Controller
 {
+    public function __construct() {
+
+        $this->middleware('auth', ['except' => 'apicall']);
+        //$this->authorizeResource(Criteria::class, 'criteria');
+
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -81,5 +88,24 @@ class TxaController extends Controller
     public function destroy(Txa $txa)
     {
         //
+    }
+
+    public function apicall(Request $request) {
+
+        // Log::debug("Recieved request with code: ".$request->code);
+
+        if(isset($request->code)) {
+            $sc = config('app.secretcode');
+
+            if($request->code == $sc) {
+                $txa = Txa::all();
+
+                return response()->json($txa);
+
+            }
+            else {
+                return response()->json(null);
+            }
+        }
     }
 }
