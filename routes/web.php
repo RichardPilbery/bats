@@ -25,7 +25,7 @@ Route::get('/app', 'HomeController@app')->name('app');
 Route::get('/privacy', 'HomeController@privacy')->name('privacy');
 
 //Route::resource('criteria', 'CriteriaController');
-Route::get('/criteria', 'CriteriaController@index');
+Route::get('/criteria', 'CriteriaController@index')->name('criteria');
 Route::get('/criteria/create', 'CriteriaController@create');
 Route::post('/criteria', 'CriteriaController@store');
 Route::get('/criteria/{criteria}/edit', 'CriteriaController@edit');
