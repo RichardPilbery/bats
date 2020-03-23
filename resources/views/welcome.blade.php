@@ -19,7 +19,7 @@
                       </div>
                     </div>
                 <br><br>
-                <p class="lead">Contact <a href="mailto:bats@ambulanceresearch.co.uk">bats@ambulanceresearch.co.uk</a> to access this site.</p>
+                <p class="lead">Contact <a href="mailto:batt@ambulanceresearch.co.uk">batt@ambulanceresearch.co.uk</a> to access this site.</p>
               </div>
         </div>
     </div>
