@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>BATS</title>
+    <title>BATT</title>
 
     <script src="{{ asset('js/app.js') }}" defer></script>
 
